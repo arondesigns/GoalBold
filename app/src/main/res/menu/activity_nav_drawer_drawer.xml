@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group"><![CDATA[
+        droid:title="Item" />
+
+
+        ]]>
+        <item android:title="Home"
+            android:id="@+id/home" />
+        <item android:title="Football"
+            android:id="@+id/football" />
+        <item android:title="Indian Super Legue"
+            android:id="@+id/isl" />
+        <item android:title="GoalBold Special"
+            android:id="@+id/gbspecial" />
+        <item android:title="AFC Asian Cup 2019"
+            android:id="@+id/afc" />
+        <item android:title="FIFA U17 WC 2017"
+            android:id="@+id/fifa" />
+        <item android:title="I-League"
+            android:id="@+id/ileague" />
+    </group>
+    <group android:id="@+id/other"
+        android:enabled="true"
+        android:visible="true" >
+        <item android:title="About Us"
+            android:id="@+id/aboutus" />
+        <item android:title="Contact Us "
+            android:id="@+id/contactus" />
+    </group>
+
+</menu>

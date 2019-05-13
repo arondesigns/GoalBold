@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="GoalBold.com is the work of passionate football followers from INDIA.\nJoin Us For All The Updates From Indian Football, World Football and World Cricket.This is your Ultimate Destination for Exclusive Updates from Indian Football, World Football and International Cricket."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:text="Follow us!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/instagram"
+        android:layout_alignTop="@+id/facebookButton"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/instagramButton"
+        android:onClick="instagramClick"
+        android:background="@null"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/twitter"
+        android:id="@+id/twitterButton"
+        android:layout_alignTop="@+id/instagramButton"
+        android:layout_toEndOf="@+id/textView2"
+        android:onClick="twitterClick"
+        android:adjustViewBounds="false"
+        android:background="@null"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/facebook"
+        android:layout_marginTop="19dp"
+        android:id="@+id/facebookButton"
+        android:layout_below="@+id/textView2"
+        android:layout_toStartOf="@+id/textView2"
+        android:onClick="facbookClick"
+        android:background="@null"/>
+
+</RelativeLayout>
